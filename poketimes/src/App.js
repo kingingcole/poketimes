@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Navbar from './components/Navbar'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Home from './components/Home'
@@ -6,8 +6,7 @@ import Contact from './components/Contact'
 import About from './components/About'
 import Post from './components/Post'
 
-class App extends Component{
-  render() {
+    function App(){
     return(
       <BrowserRouter>
          <div className="App">
@@ -23,5 +22,4 @@ class App extends Component{
 
     );
   }
-}
 export default App

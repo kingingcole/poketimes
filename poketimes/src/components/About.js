@@ -1,11 +1,11 @@
 import React from 'react'
 import Rainbow from '../hoc/Rainbow'
 
-const About = () => {
+function About  () {
     return(
         <div className="container">
             <h4 className="center">About</h4>
-            <p>This is my first about page with javascript. I'm loving this</p>
+            <p className="center-align">This is my first about page with javascript. I'm loving this</p>
         </div>
     )
 }
